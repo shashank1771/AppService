@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = '1.8'
+
+mainClassName = "org.helloworldjava8.Application"
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+repositories {
+    mavenCentral()
+}
